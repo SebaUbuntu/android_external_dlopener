@@ -1,0 +1,14 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+	name: "dlopener",
+	srcs: ["dlopener.c"],
+
+	shared_libs: ["libdl"],
+
+	vendor_available: true,
+}
